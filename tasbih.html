@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#2e4d3a">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>المسبحة - الوردي</title>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cairo:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stayle.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">الوردي</div>
+        <ul class="nav-links">
+            <li><a href="index.html">🏠 العودة</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h2 class="vintage-title">المسبحة الإلكترونية</h2>
+        <div class="counter-display" id="counter">0</div>
+        <button class="btn-count" onclick="increment()">سبّح</button>
+        <br><br>
+        <button class="btn-reset-ui" onclick="resetCounter()">إعادة ضبط العداد</button>
+    </div>
+
+    <div id="customModal" class="modal">
+        <div class="modal-content">
+            <h3>تنبيه!</h3>
+            <p>واش بصح بغيتي تصفر عداد التسبيح؟</p>
+            <div class="modal-buttons">
+                <button class="modal-btn confirm" onclick="confirmReset()">نعم، صفر</button>
+                <button class="modal-btn cancel" onclick="closeModal()">إلغاء</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

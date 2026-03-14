@@ -1,0 +1,15 @@
+{
+  "name": "موقع الوردي للمسبحة",
+  "short_name": "الوردي",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#f4ece1",
+  "theme_color": "#2e4d3a",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/2972/2972134.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
